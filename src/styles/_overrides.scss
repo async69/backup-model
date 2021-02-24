@@ -1,0 +1,41 @@
+.nav-item {
+  .nav-link {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    &.activeside {
+      font-size: 14px;
+      text-decoration: #222222;
+      border-radius: 0px;
+      background: #999999;
+    }
+  }
+}
+
+.sidebar .nav a {
+  transition: all 150ms ease-in;
+}
+
+.card-header {
+  text-transform: uppercase;
+}
+
+.badge:empty {
+  display: inline-block;
+}
+
+// .someTable {
+//   border-radius: 10px;
+//   background: #ffffff;
+//   box-shadow: inset 5px 5px 12px #737373, inset -5px -5px 12px #ffffff;
+// }
+
+.neuIcon {
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: inset 5px 5px 6px #8f8f8f, inset -5px -5px 6px #ffffff;
+}
+
+.avatars {
+  object-fit: cover;
+}

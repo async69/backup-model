@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[109],{2368:function(n,e,t){"use strict";t.r(e),t.d(e,"default",function(){return a});var u=t(1),c=t.n(u);function a(){return c.a.createElement("div",null,c.a.createElement("h1",null," ChartsOfAccountType setup of finance "))}}}]);
+//# sourceMappingURL=109.71baede2.chunk.js.map

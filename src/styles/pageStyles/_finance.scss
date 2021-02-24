@@ -1,0 +1,60 @@
+.coaAccountNameCodeContainer {
+  input {
+    margin: 0 auto;
+    padding: 35px;
+    margin-bottom: 10px;
+    font-size: 23px;
+    font-weight: bold;
+  }
+}
+
+//AccountReceivable
+.AccountReceivable {
+  .card {
+    min-height: 450px;
+    height: 455px;
+    overflow: scroll;
+  }
+}
+
+//AccountPayable
+.AccountPayable {
+  .card {
+    min-height: 450px;
+    height: 455px;
+    overflow: scroll;
+  }
+}
+
+//TrialBalance
+
+.trialBalanceHeaders {
+  input {
+    padding: 35px;
+    font-size: 23px;
+    font-weight: bold;
+  }
+}
+
+//FixedAssets
+
+.fixedAssetHeaders {
+  input {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
+
+.settingsCard {
+  transition: 0.4s;
+  background: #ffffff;
+  padding: 20px;
+  border: 0;
+
+  &.settingsCard:hover {
+    background: #f2f2f2;
+  }
+}
+
+

@@ -1,0 +1,57 @@
+{
+    "accountGroups": [
+        "Assets",
+        "Expenses",
+        "Equity",
+        "Liabilities",
+        "Revenue"
+    ],
+    "financialStatements": [
+        "Balance Sheet",
+        "Income Statement"
+    ],
+    "subGroups": [
+        "inventory",
+        "Account",
+        "Receivable",
+        "Cash",
+        "Intangible asset",
+        "Goodwill",
+        "PPE",
+        "Prepaid",
+        "Insurance",
+        " Petty Cash",
+        " GIT- Good in Transit",
+        "Leased Land",
+        "Leased Equipment",
+        "Tax Receivable",
+        "Cumulated Depreciation",
+        "Deferred Tax",
+        "Wages Payable",
+        "Accrued Liabilities",
+        "Short- term Provisions",
+        "Long term Provision",
+        "Tax Payable",
+        "Interest Payable",
+        " Long term debit",
+        "Sales",
+        "Cost of Goods Sold",
+        "Salaries Expense"
+    ],
+    "subLedgers": [
+        "Owner`s Equity",
+        "Sales Ledger",
+        "Fixed Assets Ledger",
+        " Non-Operation Ledger",
+        "Inventory Ledger",
+        "Interest Payable",
+        "Purchase Ledger",
+        "Operating Expenses Ledger",
+        "Account Payable"
+    ],
+    "normalBalances": [
+        "Normal Balance -1",
+        "Normal Balance -2",
+        "Normal Balance -3"
+    ]
+}

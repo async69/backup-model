@@ -1,0 +1,51 @@
+{
+  "departments": [
+    {
+      "name": "Finance",
+      "roles": [
+        {
+          "name": "Invoicing & Payment",
+          "levels": [
+            {
+              "name": "Junior",
+              "permissions": [0]
+            },
+            {
+              "name": "Officer",
+              "permissions": [1]
+            },
+            {
+              "name": "Senior",
+              "permissions": [2, 3]
+            },
+            {
+              "name": "Chief",
+              "permissions": [1, 2]
+            }
+          ]
+        },
+        {
+          "name": "Accountant",
+          "levels": [
+            {
+              "name": "Junior",
+              "permissions": [1]
+            },
+            {
+              "name": "Officer",
+              "permissions": [2]
+            },
+            {
+              "name": "Senior",
+              "permissions": [3]
+            },
+            {
+              "name": "Chief",
+              "permissions": [1, 3]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

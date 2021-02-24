@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[111],{2367:function(n,e,t){"use strict";t.r(e),t.d(e,"default",function(){return c});var u=t(1),a=t.n(u);function c(){return a.a.createElement("div",null,a.a.createElement("h1",null," VAT setup of finance "))}}}]);
+//# sourceMappingURL=111.915fd5a2.chunk.js.map

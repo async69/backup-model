@@ -1,0 +1,18 @@
+export default {
+  CertificationType: "4be01c0b-782a-4ff9-a644-64fde8bdd2af",
+  Consignmenttype: "4b0445b9-59ed-43c8-823f-41d0c5e22d00",
+  TrainingType: "f030a114-9879-4c69-b1c2-2df6c684ffc6",
+  DisciplinaryActionType: "dc2adc5e-8ee4-4799-8eae-7ee9009b4b0f",
+  EducationType: "23986536-7afd-49fa-976c-d07bf495df02",
+  EmployeStatus: "3937e290-65de-4620-a8a7-cd1304ded5c2",
+  IllnessType: "bc468b00-8f3a-47e9-b53a-d483eeb61729",
+  Institution: "38c20419-883f-48d4-ab4c-7302450d70d7",
+  Language: "32e2af35-b950-410a-af7b-a892b813fcee",
+  LeaveType: "dee6a316-c97c-4192-a58e-9e590a32a302",
+  LoanType: "36465a5d-c9f8-4a7f-98b4-8e350d95e2f0",
+  Nationality: "51f6c66a-dd41-4975-bc9b-1bc59beccb39",
+  QualificationLevelType: "5bb6da05-90d0-41bf-ab9e-76ef77a7cce5",
+  QualificationType: "07bee64f-7823-4c35-b53c-ecd6b7ec57a6",
+  TerminationType: "fa691961-70db-46b3-a594-7cadf6657c70",
+  UnitoFDuration: "a9d686ac-2cc1-443f-b494-89cdfe4ec348",
+};

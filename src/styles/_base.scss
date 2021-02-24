@@ -1,0 +1,143 @@
+// @import url(https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i);
+// @import url(https://fonts.googleapis.com/css?family=Fjord+One:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i);
+@import url(https://fonts.googleapis.com/css?family=Actor:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i);
+
+/* Font Smoothing */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+td,
+button,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.navbar,
+.brand,
+.alert {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family:  Actor, sans-serif;
+  font-weight: $font-weight-normal;
+}
+
+.cr-app {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-size: 14px;
+  .tableHeaders {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border: none;
+  }
+  .resultTitle {
+    font-size: 12px;
+  }
+  .resultContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: -15px;
+  }
+  // ========== BUTTONS ==========
+
+  button {
+    padding: 5px 15px 5px 15px;
+    font-size: 12px;
+
+  }
+  button:hover {
+    transform: scale(1.005);
+  }
+  // ========== TABLES ==========
+  table {
+    font-size: 15px;
+    // white-space: nowrap;
+    // overflow: scroll;
+
+    th {
+      min-width: 60px;
+      font-size: 14px;
+      color: $title;
+    }
+    tr {
+      font-size: 13px;
+    }
+    td {
+      font-size: 13px;
+
+    }
+
+  }
+
+
+
+  // ========== INPUTS ==========
+
+  input {
+    font-size: 11px;
+  }
+  textarea {
+    font-size: 10px;
+  }
+  select {
+    font-size: 11px;
+  }
+  label {
+    font-size: 11px;
+  }
+}
+
+.infoDisplayContainer {
+  border: 1px solid;
+  padding: 10px;
+  padding-left: 30px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  border-color: #d7d7d7;
+  color: #818181;
+  font-weight: bold;
+}
+.view-pdf {
+  min-height: 100vh;
+}
+// ========== MODALS ==========
+
+.modal {
+  table {
+    white-space: nowrap;
+    overflow: scroll;
+    border: 0;
+    font-size: 14px;
+    input {
+      font-size: 11px;
+      min-width: 120px;
+    }
+    select {
+      font-size: 11px;
+      min-width: 120px;
+    }
+  }
+
+  font-size: 11px;
+  button {
+    font-size: 11px;
+  }
+}

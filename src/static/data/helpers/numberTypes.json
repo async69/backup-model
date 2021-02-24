@@ -1,0 +1,16 @@
+[
+  "credit",
+  "debit",
+  "total",
+  "total_amount",
+  "paid_amount",
+  "account_balance",
+  "balance",
+  "price",
+  "unit_price",
+  "tax",
+  "unit_cost",
+  "tax_amount",
+  "amount_excl_vat",
+  "account.balance"
+]

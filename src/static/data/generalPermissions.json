@@ -1,0 +1,10 @@
+{
+  "permissions": [
+    { "id": 1, "value": "Can create customer/supplier invoice" },
+    { "id": 2, "value": "Can create customer/supplier refunds" },
+    { "id": 3, "value": "Can create customer/supplier refunds" },
+    { "id": 4, "value": "Can create customer/supplier payments" },
+    { "id": 5, "value": "Can create journal entries" },
+    { "id": 6, "value": "Can create journal entries" }
+  ]
+}

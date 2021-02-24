@@ -1,0 +1,5 @@
+export default {
+    SALES_ORDER: "SALES ORDER",
+    CUSTOMER: "CUSTOMER",
+    SALES_REGION: "SALES REGION",
+}

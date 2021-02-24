@@ -1,0 +1,627 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for store/ChartsOfAccounts/account.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../prettify.css" />
+    <link rel="stylesheet" href="../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../index.html">All files</a> / <a href="index.html">store/ChartsOfAccounts</a> account.js
+    </h1>
+    <div class='clearfix'>
+    </div>
+  </div>
+  <div class='status-line high'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">16x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">16x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { createSlice } from '@reduxjs/toolkit'
+import customStatus from '../../config/customStatus'
+import { apiCallBegan } from '../api'
+import endPoints from '../../config/endPoints'
+&nbsp;
+export const initialState = {
+    accounts: [],
+    loading: false,
+    status: customStatus.initial,
+    errors: null,
+    editStatus: {
+        loading: false,
+        status: customStatus.initial,
+        errors: null
+    },
+    deleteStatus: {
+        loading: false,
+        status: customStatus.initial,
+        errors: null
+    },
+    addStatus: {
+        loading: false,
+        status: customStatus.initial,
+        errors: null
+    }
+}
+&nbsp;
+export const name = 'chartsOfAccounts'
+&nbsp;
+const accountSlice = createSlice({
+    name,
+    initialState,
+    reducers: {
+        accountsRequested(state, _) {
+            state.loading = true
+            state.status = customStatus.pending
+            state.errors = null
+        },
+&nbsp;
+        accountsFetched(state, action) {
+            state.loading = false
+            state.status = customStatus.success
+            state.errors = null
+            state.accounts = action.payload
+        },
+&nbsp;
+        accountsRequestFailed(state, action) {
+            state.loading = false
+            state.status = customStatus.failed
+            state.errors = action.payload
+        },
+&nbsp;
+        addAccountRequest(state, _) {
+            state.addStatus.loading = true
+            state.addStatus.status = customStatus.pending
+            state.addStatus.errors = null
+        },
+&nbsp;
+        addAccountSuccess(state, action) {
+            state.addStatus.loading = false
+            state.addStatus.status = customStatus.success
+            state.addStatus.errors = null
+            state.accounts.push(action.payload)
+        },
+&nbsp;
+        addAccountRequestFailure(state, action) {
+            state.addStatus.loading = false
+            state.addStatus.status = customStatus.failed
+            state.addStatus.errors = action.payload
+        },
+&nbsp;
+        editAccountRequested(state, _) {
+            state.editStatus.loading = true
+            state.editStatus.status = customStatus.pending
+            state.editStatus.errors = null
+        },
+&nbsp;
+        editAccountSuccess(state, action) {
+            state.editStatus.loading = false
+            state.editStatus.status = customStatus.success
+            state.editStatus.errors = null
+            const index = state.accounts.findIndex(account =&gt; account.id === action.payload.id)
+            <span class="missing-if-branch" title="else path not taken" >E</span>if (index &gt;= 0) {
+                state.accounts[index] = action.payload
+            }
+        },
+&nbsp;
+        editAccountRequestFailure(state, action) {
+            state.editStatus.loading = false
+            state.editStatus.status = customStatus.failed
+            state.editStatus.errors = action.payload
+        },
+&nbsp;
+        deleteAccountRequested(state, _) {
+            state.deleteStatus.loading = true
+            state.deleteStatus.status = customStatus.pending
+            state.deleteStatus.errors = null
+        },
+&nbsp;
+        deleteAccountSuccess(state, action) {
+            state.deleteStatus.loading = false
+            state.deleteStatus.status = customStatus.success
+            state.deleteStatus.errors = null
+            const index = state.accounts.findIndex(account =&gt; account.id === action.payload.id)
+            <span class="missing-if-branch" title="else path not taken" >E</span>if (index &gt;= 0) {
+                state.accounts.splice(index, 1)
+            }
+        },
+        deleteAccountRequestFailed(state, action) {
+            state.deleteStatus.loading = false
+            state.deleteStatus.status = customStatus.failed
+            state.deleteStatus.errors = action.payload
+        }
+    }
+})
+&nbsp;
+export const resolveState = state =&gt; ({
+    entities: { [name]: state }
+})
+&nbsp;
+export const unResolveState = state =&gt; state.entities[name]
+&nbsp;
+export const {
+    accountsRequested, accountsFetched, accountsRequestFailed,
+    addAccountRequest, addAccountSuccess, addAccountRequestFailure,
+    editAccountRequested, editAccountSuccess, editAccountRequestFailure,
+    deleteAccountRequested, deleteAccountSuccess, deleteAccountRequestFailed
+} = accountSlice.actions
+&nbsp;
+export const selectStatus = state =&gt; {
+    const { loading, status, errors } = unResolveState(state)
+    return {
+        loading, status, errors
+    }
+}
+&nbsp;
+export const selectEditStatus = state =&gt; {
+    const { editStatus } = unResolveState(state)
+    return editStatus
+}
+&nbsp;
+export const selectDeleteStatus = state =&gt; {
+    const { deleteStatus } = unResolveState(state)
+    return deleteStatus
+}
+&nbsp;
+export const selectAddStatus = state =&gt; {
+    const { addStatus } = unResolveState(state)
+    return addStatus
+}
+&nbsp;
+export const selectAccounts = state =&gt; {
+    const { accounts } = unResolveState(state)
+    return accounts
+}
+&nbsp;
+export const fetchAccounts = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >    apiCallBegan({</span>
+        url: endPoints.mocks.account,
+        method: "get",
+        onStart: accountsRequested.type,
+        onSuccess: accountsFetched.type,
+        onError: accountsRequestFailed.type
+    })
+&nbsp;
+export const addAccount = <span class="fstat-no" title="function not covered" >ac</span>count =&gt;
+<span class="cstat-no" title="statement not covered" >    apiCallBegan({</span>
+        url: endPoints.mocks.account,
+        method: "post",
+        data: account,
+        onStart: addAccountRequest.type,
+        onSuccess: addAccountSuccess.type,
+        onError: addAccountRequestFailure.type
+    })
+&nbsp;
+export const editAccount = <span class="fstat-no" title="function not covered" >ac</span>count =&gt;
+<span class="cstat-no" title="statement not covered" >    apiCallBegan({</span>
+        url: endPoints.mocks.account + "/" + account.id,
+        method: "put",
+        data: account,
+        onStart: editAccountRequested.type,
+        onSuccess: editAccountSuccess.type,
+        onError: editAccountRequestFailure.type
+    })
+&nbsp;
+export const deleteAccount = <span class="fstat-no" title="function not covered" >ac</span>count =&gt;
+<span class="cstat-no" title="statement not covered" >    apiCallBegan({</span>
+        url: endPoints.mocks.account + "/" + account.id,
+        method: "delete",
+        onStart: deleteAccountRequested.type,
+        onSuccess: deleteAccountSuccess.type,
+        onError: deleteAccountRequestFailed.type
+    })
+&nbsp;
+export default accountSlice.reducer</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Fri Sep 18 2020 16:09:52 GMT+0300 (East Africa Time)
+</div>
+</div>
+<script src="../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../sorter.js"></script>
+</body>
+</html>

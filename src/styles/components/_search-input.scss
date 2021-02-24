@@ -1,0 +1,17 @@
+.cr-search-form {
+  position: relative;
+  &__icon-search {
+    position: absolute;
+    left: 8px;
+    top: 6px;
+  }
+  &__icon-filter {
+    position: absolute;
+    right: 30px;
+    top: 6px;
+  }
+
+  &__input {
+    padding-left: 35px !important;
+  }
+}

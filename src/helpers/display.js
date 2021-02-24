@@ -1,0 +1,1 @@
+export const displayString = (obj = {}) => String(Object.values(obj))

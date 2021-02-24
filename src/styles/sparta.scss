@@ -1,0 +1,31 @@
+@import "variables";
+@import "App";
+
+// libraries
+@import "~bootstrap/scss/bootstrap.scss";
+@import "~react-infinite-calendar/styles";
+
+// base
+@import "base";
+@import "overrides";
+@import "extends";
+@import "animations";
+@import "utils/utils";
+
+// components
+@import "components/header";
+@import "components/sidebar";
+@import "components/content";
+@import "components/page";
+@import "components/widget";
+@import "components/search-input";
+@import "components/constants";
+@import "components/shimmer";
+
+// themes
+@import "themes/colors";
+
+// Page Styles
+@import "pageStyles/dashboardPage";
+@import "pageStyles/finance";
+@import "pageStyles/hr";

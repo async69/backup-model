@@ -1,0 +1,20 @@
+.dashboard {
+  .numberWidget {
+    .numbers {
+      color: $light;
+      // margin: 100px;
+    }
+  }
+  .iconWidget {
+    box-shadow: 4px 4px 6px #aeaeae;
+  }
+  .PDFreports {
+    height: 220px;
+    overflow: scroll;
+  }
+
+  table {
+    max-height: 305px;
+    overflow: scroll;
+  }
+}

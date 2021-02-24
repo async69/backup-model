@@ -1,0 +1,7 @@
+{
+    "ledgerTypes": [
+        "General",
+        "Debitors",
+        "Creditors"
+    ]
+}
